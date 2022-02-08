@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "solidmaterial-mirror-leech",
+  "private_key_id": "d4af88b44623f333a3dd3baa791d28cac9eaf6b8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDBdivwXtBWirSe\nagdjZk7zzLhbuygHzD9yVvEzoMxYLM1BNCyFKI9eW+R9IL8462za/X6D+0f5/reR\nN2sSVmosKBHBViMFDs64cj+l7s5uBuHDGlCQV4sIx1ArVuTi4bVRvbW9RCoBWPfa\nke2e6S9O+z3V1iD3um0xHIxJ5UXOuKV4U5YgEUEYsNasBq4PiTT8zxItL9RG+9Is\ndNQtCjsmkgQkhoQ8Al58NOEQ+3p3A1QaF8Kdx/sHNJRv1+rzpKWzpHjajF2KA9LT\nfGrfeoBgvrKap1g2VFK2Y3AVyoLuNcMtgkI7D+DPyoJG0va7Q2Ssk1V0mdxL0lzx\nMSRwd7QjAgMBAAECggEAN229LxRrSrBZCZ5FWaRhcJayJ44a7QkHEKJ6XxluEsFb\nWZgyPUCeuyFG+NbeEtfZC3Ffwz7Go4joXVHseoeJyfb9B1C/nd5dOhl5xPgD6yBL\npNOwS3rZmf1JKfGuiJa0laPuIzkZc+NiuBvhYgtbg5yWXeMI9RFT4aNVSoLHGm/r\naQpYGSZbycnFAojYMw9PnUm1wUWDaKekX0N39idH/V5H/2dZP7jYXL92Au8nssrV\nU+LFjvi0ZFY7kn0tsjt+D51yNYEKKUFOJl16wTzLgyL9LHyTbEAEfuQ5UEW2I+04\n6V/KPmGMiO0GjqaYP4hBb7hvUl3inmFgINFhGDu7yQKBgQDgwzEV1r+9EyP3xVTx\n86YMxzm9lmQInxMnYB2av0mm6/Z2EjWp1Nt67zx8Pq4nVVsAttg3GMIeSK/uYP5S\nJkIPhX7dA9HFocQb3wZxDjGicygYmFxxRlgAIYK9uzof9OhuMPDfQRhVArMF5OfX\nqYWj9BB70QBumvi+dVETS1jevQKBgQDcWVQqs2/Z/mmI77/A/bj+ErC00OK32AWA\niPcTjzg9dIiV41DUoon9uCMSEruO5v+C+R9EmcGUareH53A4MDMYsbgGAU20oSEP\ngqNcXaLWz+2bjoTDx0vyZaQJnccey/AUZUdf3ZkbShPvPLlAK5H5tb7IiA5yXRIx\nJxEU0Vf8XwKBgQCLgrzqCFUVYFcYCUVztT+heNvvQPUwoMS70R4vGoL1+EsP+LeU\nhgoB4ZNSr3lb8tA8vkGw2U5Mi+Of/FZ/2T1x8vPO7fr8SC+4+RM/g4bthbsioRfo\nO7iNxD8p05f9k//dvcUVXoti4P0MMIxzwcaxAOJmaFFzVgAGAD3l0wQDpQKBgAYX\nojAcDfelBR34IwEfAsJjmecl717N5jkLkGlGCHQKiMw8ILwAUnhlYvLY+b6VvHLO\nmIK5DZUg7jofuAaVrpP8Ne5UkuVvnw5iukmPfTUbQqKOajVPiVYGYWayqhK76MNn\nmXWZFuaeQbbXoveXPM3+rGu2909KK3qYbex5bUlZAoGATbyUWu0OBGU0UBBqVqFX\nuXVDqTpXbuZ0LXYGAG7BrQo+sZC5R7QxAwzUtumAvZNbIrleeLDeZLQ0DnElVQLn\nDC5SMN5B+f9PkLcUxVYN7gxtj2jf1utUoDkDp6nTxeWErWqoNBH/x2qLqGQutou6\nwNK+YyWhlkPm0xAZel6UPng=\n-----END PRIVATE KEY-----\n",
+  "client_email": "mfc-3m4m7dl5p84cvtdf03pe8a4143@solidmaterial-mirror-leech.iam.gserviceaccount.com",
+  "client_id": "105744444196323552534",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mfc-3m4m7dl5p84cvtdf03pe8a4143%40solidmaterial-mirror-leech.iam.gserviceaccount.com"
+}
