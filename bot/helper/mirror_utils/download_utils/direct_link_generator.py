@@ -11,6 +11,7 @@ for original authorship. """
 import requests
 import re
 
+from lxml import etree
 from base64 import b64decode
 from urllib.parse import urlparse, unquote
 from json import loads as jsnloads
@@ -19,7 +20,7 @@ from cfscrape import create_scraper
 from bs4 import BeautifulSoup
 from base64 import standard_b64encode
 
-from bot import LOGGER, UPTOBOX_TOKEN, CRYPT
+from bot import LOGGER, UPTOBOX_TOKEN, CRYPT, EMAIL, PWSSD, CLONE_LOCATION as GDRIVE_FOLDER_ID
 from bot.helper.telegram_helper.bot_commands import BotCommands
 from bot.helper.ext_utils.bot_utils import is_gdtot_link
 from bot.helper.ext_utils.exceptions import DirectDownloadLinkException
@@ -409,7 +410,7 @@ def gdtot(url: str) -> str:
     with requests.Session() as client:
         client.cookies.update({'crypt': CRYPT})
         res = client.get(url)
-        res = client.get(f"https://new.gdtot.eu/dld?id={url.split('/')[-1]}")
+        res = client.get(f"https://new.gdtot.top/dld?id={url.split('/')[-1]}")
     matches = re.findall('gd=(.*?)&', res.text)
     try:
         decoded_id = b64decode(str(matches[0])).decode('utf-8')
