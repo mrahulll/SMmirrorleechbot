@@ -432,11 +432,11 @@ try:
 except KeyError:
     PWSSD = None
 try:
-    CLONE_LOCATION = getConfig('CLONE_LOCATION')
-    if len(CLONE_LOCATION) == 0:
+    CLONE_LOACTION = getConfig('CLONE_LOACTION')
+    if len(CLONE_LOACTION) == 0:
         raise KeyError
 except KeyError:
-    CLONE_LOCATION = ''
+    CLONE_LOACTION = ''
 try:
     TOKEN_PICKLE_URL = getConfig('TOKEN_PICKLE_URL')
     if len(TOKEN_PICKLE_URL) == 0:
