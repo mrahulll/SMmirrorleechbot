@@ -420,6 +420,24 @@ try:
 except KeyError:
     CRYPT = None
 try:
+    EMAIL = getConfig('EMAIL')
+    if len(EMAIL) == 0:
+        raise KeyError
+except KeyError:
+    EMAIL = None
+try:
+    PWSSD = getConfig('PWSSD')
+    if len(PWSSD) == 0:
+        raise KeyError
+except KeyError:
+    PWSSD = None
+try:
+    CLONE_LOCATION = getConfig('CLONE_LOCATION')
+    if len(CLONE_LOCATION) == 0:
+        raise KeyError
+except KeyError:
+    CLONE_LOCATION = ''
+try:
     TOKEN_PICKLE_URL = getConfig('TOKEN_PICKLE_URL')
     if len(TOKEN_PICKLE_URL) == 0:
         raise KeyError
