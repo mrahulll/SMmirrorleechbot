@@ -15,7 +15,6 @@ from bot.helper.ext_utils.bot_utils import MirrorStatus, getDownloadByGid, get_r
 from bot.helper.ext_utils.fs_utils import clean_unwanted, get_base_name
 from bot.helper.telegram_helper import button_build
 
-
 def add_qb_torrent(link, path, listener, select):
     client = get_client()
     pincode = ""
